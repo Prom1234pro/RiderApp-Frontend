@@ -1,0 +1,116 @@
+body{
+    background-color: #fcfcfc;
+    font-family:cursive;
+
+}
+.sign-up-page{
+    display: flex;
+    max-width: 1000px;
+    margin: 5vh auto;
+    gap: 30%;
+}
+.character{
+    background-color: #fcfcfc;
+    display: flex;
+    width: auto;
+}
+.d-rider{
+    position: relative;
+    top: 10%;
+}
+.d-rider hr{
+    width: 120%;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotateX(100deg);
+}
+.create-account{
+    color: #34cb6c ;
+    font-family:cursive;
+}
+.create-account p {
+    font-size: 30px;
+}
+.sign-up-form-container{
+    position: relative;
+    padding: 2em 5em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+  input{
+    padding: 10px 25px;
+    margin: 10px auto 20px;
+    border: 0;
+    font-family:cursive;
+    outline: none;
+    box-shadow: 0 0 2px rgba(0,0,0,1);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus{
+    box-shadow: 0 0 2px #34cb6c;
+    outline: 1px solid #34cb6c;
+  }
+  input, label{
+    display: block;
+    text-align: start;
+    line-height: 0.15em;
+    font-family:cursive;
+
+  }
+  .Horizontal-rule{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  hr{
+    height: 2px;
+    width: 100%;
+    background-color: #34cb6c;
+    border-radius: 50px;
+    border: 0;
+  }
+  .SignUpWith{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  button{
+    width: 100%;
+    background-color: #34cb6c;
+    border: 0;
+    outline: #fcfcfc;
+    border-radius: 4px;
+    color: #fcfcfc;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  @media (max-width:500px) {
+    .sign-up-page{
+        display: block;
+        margin: 0 auto;
+    }
+    .character{
+        overflow: hidden;
+        background-color: #34cb6c;
+        border-radius:0% 100% 12% 88% / 67% 0% 100% 33% ;
+    }
+    .d-rider{
+        position: relative;
+        top:120px;
+    }
+    
+    .create-account{
+        color: #fcfcfc;
+        position: relative;
+        left: 10%;
+    }
+    input{
+       width: 100%;
+      }
+      .sign-up-form-container{
+        padding: 2em;
+        box-shadow: none;
+    }
+  }
