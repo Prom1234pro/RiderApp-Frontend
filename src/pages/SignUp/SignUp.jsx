@@ -1,12 +1,12 @@
 import React from 'react'
 import { FiArrowLeftCircle } from "react-icons/fi";
-import character from "../../assets/Character.svg"
 import Button from '../../components/Form/Button'
 import Horizontal from '../../components/Horizontalrule'
 import SocialMedialSignUp from '../../components/SocialMedialSignUp'
 import image from "../../assets/google.png"
 import Forms from '../../components/Form/'
 import './SignUp.css'
+import Character from '../../components/Character/Character'
 
 function SignUp() {
 	const formProps = [
@@ -25,7 +25,7 @@ function SignUp() {
 		{
 			id: "email",
 			text: "Email",
-			placeholder: "Enter tyour email",
+			placeholder: "Enter your email",
 			type: "email"
 		},
 		{
@@ -43,16 +43,7 @@ function SignUp() {
 	]
 	return (
 		<div className='sign-up-page'>
-			<div className="character">
-				<div className="create-account">
-					<p><FiArrowLeftCircle/></p>
-					<h1>Create <br /> Account</h1>
-				</div>
-				<div className="d-rider">
-					<img src={character} alt="" height='70%'/>
-				<hr />
-				</div>
-			</div>
+			<Character icons={<FiArrowLeftCircle/>} create="Create" account="Account" />
 			<div className="sign-up-form-container">
 				<Forms formInput={formProps}/>
 				<div className="sign-up-button">

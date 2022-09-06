@@ -6,7 +6,7 @@ body{
 .sign-up-page{
     display: flex;
     max-width: 1000px;
-    margin: 5vh auto;
+    margin: 7vh auto;
     gap: 30%;
 }
 .character{
