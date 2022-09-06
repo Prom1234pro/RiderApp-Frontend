@@ -6,7 +6,7 @@ body{
 .sign-up-page{
     display: flex;
     max-width: 1000px;
-    margin: 5vh auto;
+    margin: 7vh auto;
     gap: 30%;
 }
 .character{
@@ -27,11 +27,9 @@ body{
     padding: 2em 5em;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-  
-  .Horizontal-rule{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  .sign-up-view-block {
+    width: 80%;
+    margin: auto;
   }
   hr{
     height: 2px;
