@@ -1,0 +1,10 @@
+.d-rider{
+    position: relative;
+    top: 10%;
+}
+.d-rider hr{
+    width: 120%;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotateX(100deg);
+}
