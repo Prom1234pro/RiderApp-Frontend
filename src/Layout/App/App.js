@@ -1,9 +1,11 @@
 import React from 'react';
+// import system from '../../locales/en.json'
+import MainLayout from '../MainLayout'
 
 function App() {
   return (
     <div className="App">
-      <h1>Rider App</h1>
+      <MainLayout/>
     </div>
   );
 }
