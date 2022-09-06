@@ -4,7 +4,7 @@ function Button(props) {
     const {title}= props
   return (
     <div>
-      <button styles={styles.button}>{title}</button>
+      <button style={styles.button}>{title}</button>
     </div>
   )
 }
