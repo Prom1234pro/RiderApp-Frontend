@@ -1,0 +1,12 @@
+.curve {
+    display: none;
+    transform: rotateZ(180deg);
+    transform: rotateX(180deg);
+    height: 0;
+}
+
+@media (max-width: 500px){
+    .curve {
+        display: block;
+    }
+}

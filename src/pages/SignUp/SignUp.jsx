@@ -6,7 +6,8 @@ import SocialMedialSignUp from '../../components/SocialMedialSignUp'
 import image from "../../assets/google.png"
 import Forms from '../../components/Form/'
 import './SignUp.css'
-import Character from '../../components/Character/Character'
+import Character from '../../components/Character'
+import CurveLayer from '../../components/CurveLayer';
 
 function SignUp() {
 	const formProps = [
@@ -44,6 +45,7 @@ function SignUp() {
 	return (
 		<div className='sign-up-page'>
 			<Character icons={<FiArrowLeftCircle/>} create="Create" account="Account" />
+			<CurveLayer/>
 			<div className="sign-up-form-container">
 				<Forms formInput={formProps}/>
 				<div className="sign-up-button">

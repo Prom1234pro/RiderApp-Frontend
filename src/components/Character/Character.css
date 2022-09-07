@@ -10,4 +10,30 @@
 }
 .character {
     text-align: center;
+    background-color: #fcfcfc;
+    display: flex;
+    width: auto;
+}
+.shadow{
+    height: 37px;
+    width: 110%;
+    background-color: gray;
+    border-radius: 50px;
+    transform: rotateX(82deg);
+  }
+@media(max-width: 500px){
+    .character{
+        overflow: hidden;
+        background-color: #34cb6c;
+        /* border-radius:0% 100% 12% 88% / 67% 0% 100% 33% ; */
+    }
+    .d-rider{
+        position: relative;
+        top:100px;
+    }
+    .create-account{
+        color: #fcfcfc;
+        position: relative;
+        left: 10%;
+    }
 }
