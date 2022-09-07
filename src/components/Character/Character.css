@@ -2,10 +2,15 @@
     position: relative;
     top: 10%;
 }
+.create-account{
+    color: #34cb6c ;
+    font-family:cursive;
+}
 .d-rider hr{
     width: 120%;
     height: 30px;
     border-radius: 50%;
+    background-color: #34cb6c;
     transform: rotateX(100deg);
 }
 .character {
@@ -14,6 +19,7 @@
     display: flex;
     width: auto;
 }
+<<<<<<< HEAD
 .shadow{
     height: 37px;
     width: 110%;
@@ -31,6 +37,19 @@
         position: relative;
         top:100px;
     }
+=======
+@media (max-width:500px) {
+    .character{
+        overflow: hidden;
+        background-color: #34cb6c;
+        border-radius:0% 100% 12% 88% / 67% 0% 100% 33% ;
+    }
+    .d-rider{
+        position: relative;
+        top:120px;
+    }
+    
+>>>>>>> ca4d2c82a55ea60ca6daf3066129d3e66bad3517
     .create-account{
         color: #fcfcfc;
         position: relative;

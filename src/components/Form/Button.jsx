@@ -15,6 +15,4 @@ function Button(props) {
 			<button onClick={handleClick} style={type !=="custom"?styles.button: style}>{title}</button>
 		</div>
 	)
-}
 
-export default Button

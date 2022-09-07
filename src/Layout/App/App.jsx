@@ -20,6 +20,5 @@ function App() {
 			</MainLayout>
 		</BrowserRouter>
 	);
-}
 
 export default App;

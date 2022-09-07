@@ -1,5 +1,6 @@
 import React from 'react'
 import character from "../../assets/Character.svg"
+import './Character.css'
 
 function Character(props) {
     const {icons, create, account}= props
