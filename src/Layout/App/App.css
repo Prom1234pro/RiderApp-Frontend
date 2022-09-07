@@ -1,0 +1,14 @@
+.Horizontal-rule{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #9f9f9f;
+}
+.Horizontal-rule div {
+  background-color: #9f9f9f;
+  border-bottom: 1px solid #9f9f9f;
+  width: 100%;
+}
+.Horizontal-rule span {
+  margin-bottom: 5px;
+}

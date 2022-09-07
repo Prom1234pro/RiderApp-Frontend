@@ -3,7 +3,7 @@ import Character from '../../components/Character/Character'
 import { FiArrowLeftCircle } from "react-icons/fi";
 import OtpCode from '../../components/OtpVerificationCode';
 import FormFooter from '../../components/Form/FormFooter';
-// import './SignUp.css'
+import './OtpVerification.css'
 
 
 function OtpVerification() {
@@ -17,8 +17,8 @@ function OtpVerification() {
                 <p>this Mobile Number</p>
                 <div className="num-box"><p>{phoneNumber}</p></div>
                 <OtpCode/>
-            </div>
             <FormFooter text1="Have an account ?" text2="Login"/>
+            </div>
     </div>
   )
 }

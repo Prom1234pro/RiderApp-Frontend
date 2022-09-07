@@ -1,0 +1,38 @@
+.d-rider{
+    position: relative;
+    top: 10%;
+}
+.create-account{
+    color: #34cb6c ;
+    font-family:cursive;
+}
+.d-rider hr{
+    width: 120%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #34cb6c;
+    transform: rotateX(100deg);
+}
+.character {
+    text-align: center;
+    background-color: #fcfcfc;
+    display: flex;
+    width: auto;
+}
+@media (max-width:500px) {
+    .character{
+        overflow: hidden;
+        background-color: #34cb6c;
+        border-radius:0% 100% 12% 88% / 67% 0% 100% 33% ;
+    }
+    .d-rider{
+        position: relative;
+        top:120px;
+    }
+    
+    .create-account{
+        color: #fcfcfc;
+        position: relative;
+        left: 10%;
+    }
+}
