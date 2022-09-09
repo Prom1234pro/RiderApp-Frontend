@@ -1,15 +1,22 @@
 import React from 'react'
-import character from "../../assets/Character.svg"
 import './Character.css'
+const character: string = require("../../assets/Character.svg").default
 
-function Character(props) {
+type Props = {
+    icons? : JSX.Element
+    create?: string
+    account?: string
+}
+const Character:React.FC<Props> = (props) =>{
     const {icons, create, account}= props
     return (
         <div className="character">
+            {icons && 
             <div className="create-account">
                 <p>{icons}</p>
                 <h1>{create} <br />{account}</h1>
             </div>
+            }
             <div className="d-rider">
                 <img src={character} alt="" height='70%'/>
             <div className="shadow"/>

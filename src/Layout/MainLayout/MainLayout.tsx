@@ -12,8 +12,11 @@ const SplashScreen = () => (
     </div>
 )
 
+type Props = {
+	children: JSX.Element
+}
 
-const MainLayout = (props) => {
+const MainLayout: React.FC<Props> = (props) => {
 	const {children} = props
 	const [loaded, setLoading] = useState(false)
 	setTimeout(() =>{

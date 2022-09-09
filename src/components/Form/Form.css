@@ -6,6 +6,7 @@ input{
     box-shadow: 0 0 2px rgba(0,0,0,1);
     border-radius: 4px;
     box-sizing: border-box;
+    padding: 0.5em 1.5em;
 }
   input:focus{
     box-shadow: 0 0 2px #34cb6c;

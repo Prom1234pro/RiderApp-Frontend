@@ -4,9 +4,20 @@
     transform: rotateX(180deg);
     height: 0;
 }
+.curve-layer{
+    display: none;
+    height: 40px;
+    position: relative;
+    bottom: -30%;
+    z-index: 1;
+    overflow: hidden;
+}
 
 @media (max-width: 500px){
     .curve {
+        display: block;
+    }
+    .curve-layer {
         display: block;
     }
 }

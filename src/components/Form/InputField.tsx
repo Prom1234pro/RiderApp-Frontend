@@ -1,7 +1,15 @@
 import React from 'react'
 import './Form.css'
+type Props = {
+  id: string
+  text: string
+  placeholder: string
+  type: string
+  width?: number
+  length?: number
+}
 
-function InputField(props) {
+const InputField:React.FC<Props> = (props) =>{
     const {id, text, placeholder, type, length, width} = props
   return (
     <div>

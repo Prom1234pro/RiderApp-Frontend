@@ -22,6 +22,7 @@
     text-align: center;
     outline: none;
     border: 0;
+    padding: 0;
     background-color: #D6F5E2;
     border-radius: 4px;
 }
@@ -32,13 +33,11 @@
   margin: 1em auto;
 }
 .form-footer{
-    background-color:#34cb6c;
-    height: 20vh;
+    color: #34cb6c;
 }
 .form-footer p{
    text-align: center;
    padding-top: 70px;
-   color: #fcfcfc;
    font-size: 15px;
    font-weight: 600;
 }
@@ -52,12 +51,14 @@
     .Otp-Verification-Container{
         display: block;
         margin: 0 auto;
-        /* overflow-x: hidden; */
     }
     .form-footer{
         position: absolute;
-       margin: 20vh auto 0;
-       width: 100%;
+        margin: 20vh auto 0;
+        color: #fcfcfc;
+        height:20vh;
+        width: 100%;
+        background-color:#34cb6c
     }
     .otp-verification{
         padding: 2em 0;

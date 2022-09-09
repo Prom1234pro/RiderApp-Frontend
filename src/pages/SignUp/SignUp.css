@@ -5,12 +5,6 @@
     gap: 30%;
     height: 80vh;
 }
-
-
-.create-account{
-    color: #34cb6c ;
-    font-family:cursive;
-}
 .create-account p {
     font-size: 30px;
 }
@@ -45,12 +39,5 @@
   .sign-up-form-container{
       padding: 2em;
       box-shadow: none;
-  }
-  .SignUpWith{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
   }
 }
