@@ -5,7 +5,6 @@ import Character from '../../components/Character'
 import CurveLayer from '../../components/CurveLayer'
 import Button from '../../components/Form/Button'
 import Forms from '../../components/Form/Form'
-import FormFooter from '../../components/Form/FormFooter'
 import Horizontal from '../../components/Horizontalrule'
 import SocialMedialSignUp from '../../components/SocialMedialSignUp'
 const image: string = require("../../assets/google.png")
