@@ -1,23 +1,27 @@
+.curve-layer-1, .curve-layer-2 {
+    display: none;
+}
 .curve {
-    display: none;
-    transform: rotateZ(180deg);
-    transform: rotateX(180deg);
-    height: 0;
+    align-self: center;
+    height: 60vh;
 }
-.curve-layer{
-    display: none;
-    height: 40px;
-    position: relative;
-    bottom: -30%;
-    z-index: 1;
-    overflow: hidden;
-}
-
 @media (max-width: 500px){
     .curve {
-        display: block;
+        height: 70vh;
+        width: 100%;
+        background-color: transparent;
+        position: relative;
+        top: -15%;
     }
-    .curve-layer {
+    .curve-layer-1, .curve-layer-2 {
         display: block;
+        width: 103%;
+    }
+    
+}
+@media (max-width: 300px) {
+    .curve-layer-1 {
+        position: absolute;
+        top: 9%;
     }
 }

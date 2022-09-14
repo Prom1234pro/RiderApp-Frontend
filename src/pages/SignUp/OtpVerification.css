@@ -1,9 +1,11 @@
 .Otp-Verification-Container{
     display: flex;
-    max-width: 1000px;
-    margin: 7vh auto;
-    gap: 30%;
+    margin: 15vh auto;
+    justify-content: space-around;
+    gap: 10%;
+    height: 100%;
     font-family: cursive;
+    position: relative;
 }
 .otp-verification{
     text-align: center;
@@ -34,10 +36,11 @@
 }
 .form-footer{
     color: #34cb6c;
+    width: 100%;
 }
 .form-footer p{
    text-align: center;
-   padding-top: 70px;
+   padding: 30px 0 40px 0;
    font-size: 15px;
    font-weight: 600;
 }
@@ -51,14 +54,16 @@
     .Otp-Verification-Container{
         display: block;
         margin: 0 auto;
+        height: 80vh;
     }
     .form-footer{
-        position: absolute;
-        margin: 20vh auto 0;
         color: #fcfcfc;
-        height:20vh;
+        height: max-content;
         width: 100%;
-        background-color:#34cb6c
+        bottom: -70%;
+        z-index: -1;
+        background-color:#34cb6c;
+        position: absolute;
     }
     .otp-verification{
         padding: 2em 0;

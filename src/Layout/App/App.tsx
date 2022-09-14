@@ -1,6 +1,7 @@
 import React from 'react';
 // import system from '../../locales/en.json'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Login from '../../pages/Login';
 import NotFound from '../../pages/NotFound';
 import OtpVerification from '../../pages/SignUp/OtpVerification';
 import SignUp from '../../pages/SignUp/SignUp';
@@ -15,6 +16,7 @@ const App: React.FC = ()=> {
 			<MainLayout>
 				<Routes>
 					<Route  path="/" element={<SignUpView/>} />
+					<Route  path="/login" element={<Login/>} />
                 	<Route  path="signup" element={<SignUp/>} />
                 	<Route  path="otp-verification" element={<OtpVerification/>} />
 					<Route  path="*" element={<NotFound/>} />

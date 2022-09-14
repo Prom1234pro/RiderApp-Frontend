@@ -7,6 +7,7 @@ import Forms from '../../components/Form'
 import './SignUp.css'
 import Character from '../../components/Character'
 import CurveLayer from '../../components/CurveLayer';
+import AuthSection from '../../components/AuthSection';
 const image: string = require("../../assets/google.png")
 
 
@@ -52,20 +53,23 @@ const SignUp: React.FC<Props> = (Props)=> {
 		},
 	]
 	return (
-		<div className='sign-up-page'>
-			<Character icons={<FiArrowLeftCircle/>} create="Create" account="Account" />
-			<CurveLayer rotate={true}/>
-			<div className="sign-up-form-container">
-				<Forms formInput={formProps}/>
-				<div className="sign-up-button">
-					<Button location="/otp-verification" title="Create account"/>
+		<AuthSection>
+			<>
+				<Character icons={<FiArrowLeftCircle/>} create="Create" account="Account" />
+				<CurveLayer >
+				<div className="sign-up-form-container">
+					<Forms formInput={formProps}/>
+					<div className="sign-up-button">
+						<Button location="/otp-verification" title="Create account"/>
+					</div>
+					<div className="horizontal">
+						<Horizontal/>
+					</div>
+					<SocialMedialSignUp SignUpWith="Sign Up with Google" image={image} />
 				</div>
-				<div className="horizontal">
-					<Horizontal/>
-				</div>
-				<SocialMedialSignUp SignUpWith="Sign Up with Google" image={image} />
-			</div>
-		</div>
+				</CurveLayer>
+			</>
+		</AuthSection>
 	)
 }
 

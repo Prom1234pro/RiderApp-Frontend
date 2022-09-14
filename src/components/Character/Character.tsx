@@ -11,11 +11,11 @@ const Character:React.FC<Props> = (props) =>{
     const {icons, create, account}= props
     return (
         <div className="character">
-            {icons && 
+            {icons || create ? 
             <div className="create-account">
                 <p>{icons}</p>
                 <h1>{create} <br />{account}</h1>
-            </div>
+            </div>: <div className="empty"></div>
             }
             <div className="d-rider">
                 <img src={character} alt="" height='70%'/>

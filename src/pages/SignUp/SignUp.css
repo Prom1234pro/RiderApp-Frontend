@@ -1,38 +1,55 @@
 .sign-up-page{
     display: flex;
-    max-width: 1000px;
     margin: 7vh auto;
-    gap: 30%;
+	justify-content: space-around;
     height: 80vh;
+	width: 100%;
+	position: relative;
+}
+.sign-up-view-page {
+	display: flex;
+	justify-content: space-around;
+	height: 80vh;
+	width: 80%;
+	margin: 2em auto;
+	position: relative;
+	gap: 30%;
 }
 .create-account p {
     font-size: 30px;
 }
 .sign-up-form-container{
-    position: relative;
-    padding: 2em 5em;
+	padding: 2em 5em;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	box-sizing: border-box;
 }
 .sign-up-view-block {
-  width: 80%;
-  margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+	margin-left: 10em;
+	padding: 0 3em ;
 }
 .sign-up-view-block p {
-  margin: 1em 0 2em 0;
+  	margin: 1em 0 2em 0;
 }
 
 .SignUpWith{
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
 }
 @media (max-width:500px) {
-  .sign-up-page{
+  .sign-up-page, .sign-up-view-page{
       display: block;
       margin: 0 auto;
+	  width: 100%;
   }
+  
   input{
       width: 100%;
     }
