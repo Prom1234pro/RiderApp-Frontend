@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import FormFooter from '../Form/FormFooter'
 const curveLayer1: string = require('../../assets/curve-svg-1.svg').default
 const curveLayer2: string = require('../../assets/Frame1.svg').default
