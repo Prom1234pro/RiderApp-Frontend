@@ -2,7 +2,6 @@ import React from 'react'
 import Character from '../../components/Character/Character'
 import { FiArrowLeftCircle } from "react-icons/fi";
 import OtpCode from '../../components/OtpVerificationCode';
-import FormFooter from '../../components/Form/FormFooter';
 import './OtpVerification.css'
 import CurveLayer from '../../components/CurveLayer';
 import AuthSection from '../../components/AuthSection';
